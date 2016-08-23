@@ -6,7 +6,7 @@
 #    By: cglens <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/27 17:25:06 by cglens            #+#    #+#              #
-#    Updated: 2016/08/23 15:05:09 by cglens           ###   ########.fr        #
+#    Updated: 2016/08/23 15:22:55 by cglens           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,13 +34,3 @@ fclean: clean
 
 re: fclean $(NAME)
 	make fclean all -C libft
-
-####################
-#---BLA-BLA-BLA----#
-####################
-#recuperer la map
-#lire -> atoi
-#lire une valeur = 
-#	i/j correspondent a lemplacement de la valeur dans le tableau
-#	donner une hauteur de la valeur indique a l emplacement i/j(du tab) dans la map(pixl)
-#images
